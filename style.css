@@ -23,3 +23,8 @@ li a:hover {
   color: black;
 }
 
+img {
+  align: center;
+  width: 2000px;
+  height: 800px;
+}
