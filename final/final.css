@@ -5,16 +5,21 @@ h1{
   
   
 }
+img {
+  
+}
 
 
 p {
-  color: white;
+  color: black;
   font-size: 150%;
+  text-align: center;
+  font-weight: bold;
 }
 
 nav {
   list-style-type: none;
-  background-color: #FADCFA;
+  background-color: #488CCA;
   width: 100%;
   overflow: hidden;
   position: fixed;
@@ -23,10 +28,17 @@ nav {
   margin: 0;
 }
 
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;1
+}
+
 li a {
   float: left;
   display: block;
-  color: #D692F7;
+  color: white;
   text-decoration: none;
   padding: 15px 50px;
 }
@@ -34,6 +46,13 @@ li a {
 li a:hover {
   background-color: #92CBF7;
   color: black;
+}
+
+h2 {
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  font-weight: bold;
 }
 
 
