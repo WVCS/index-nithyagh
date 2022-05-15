@@ -6,6 +6,9 @@ h1{
   text-align: center;
   font-size: 300%;
 }
+p{
+  text-align: center;
+}
 button {
   background-color: #502274;
   padding 3%;
