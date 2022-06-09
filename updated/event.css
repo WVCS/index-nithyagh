@@ -1,0 +1,45 @@
+
+h1{
+  text-align: center;
+  color: white; 
+  font-size: 300%;
+  
+  
+}
+
+
+p {
+  color: #A865E2;
+  font-size: 150%;
+}
+
+nav {
+  list-style-type: none;
+  background-color: #FADCFA;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+li a {
+  float: left;
+  display: block;
+  color: #D692F7;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+li a:hover {
+  background-color: #92CBF7;
+  color: black;
+}
+
+
+
+body {
+  background-color: #92CBF7;
+  background-size: cover;
+}
