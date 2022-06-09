@@ -1,0 +1,108 @@
+<style>
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#accept_cookie {border: solid black;
+width: 100%;
+background-color: #8C92AC;
+padding: .5%;}
+
+p1 {padding: .5%}
+
+nav {
+  list-style-type: none;
+  background-color: #FDD692;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;1
+}
+
+li a {
+  float: left;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+li a:hover {
+  background-color: #EC7357;
+  color: black;
+}
+
+
+
+
+.wrapper {
+  display: grid;
+  grid-template: 
+      "A B C" auto
+      "D E F"
+      "G ";
+  grid-template-columns: 20% 60% 20%;
+  grid-row-gap: 4%;
+  grid-column-gap: 2%;
+  border: none;
+height: 100vh;
+grid-template-columns: auto auto auto;
+background-color: white;}
+
+div {
+  background-color: #EC7357 ;
+  border: solid 1px black;}
+
+.A {grid-column: 1/4;
+  display: inline-block;
+  padding: 1%;}
+
+
+.B {padding: 2%;
+justify-content: center}
+
+.C {padding: 2%;
+justify-content: center}
+
+.D {padding: 2%;
+justify-content: center}
+
+.E {padding: 2%;
+justify-content: center}
+
+.F {padding: 2%;
+justify-content: center}
+
+.G {padding: 2%;
+justify-content: center}
+
+h4:hover {
+ text-decoration: underline
+}
+
+
+#cart {width: 5%;
+  float: left}
+  
+  #back {float:center}
+  
+  @media screen and (max-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+  }
+}
+
+
+</style>
